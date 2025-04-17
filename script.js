@@ -123,7 +123,7 @@ sections.forEach((section, i) => {
 });
 
 function updateHeading(index) {
-  const headingText = ["Furniture", "Decor", "Office"];
+  const headingText = ["For Mens", "Womens", "Kids"];
   headings.forEach(h => h.textContent = headingText[index]);
 }
 
